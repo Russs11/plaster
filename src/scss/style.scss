@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url("../fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 100%;
+        height: 152px;
+        border: 1px solid #000;
+
+        .header_wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            // grid-column-gap: 180px;
+            justify-content: space-between;
+            width: 1160px;
+        }
+
+        .item {
+            display: grid;
+            align-items: center;
+            border: 1px solid #000;
+
+
+
+        }
+
+        .item_1 {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: max-content;
+            width: 300px;
+
+            // .header_logo {
+            //     background-image: url("../img/header_logo.png");
+            //     width: 72px;
+            //     height: 72px;
+            // }
+
+            .header_logo_2 {
+                background-image: url("../img/header_logo2.png")
+                width: 185px;
+                height: 35px;
+            }
+        }
+
+        .item_2 {
+            display: grid;
+            justify-items: center;
+            background: rgba(45, 166, 221, 0.2);
+            border-radius: 999px;
+            height: 37px;
+            font-family: 'Montserrat-semibold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 120%;
+            color: #254152;
+
+        }
+
+        .item_3 {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            // grid-template-rows: 30px;
+            width: max-content;
+            height: max-content;
+
+            .text{
+                font-family: 'Montserrat-bold';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 100%;
+                text-align: right;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #254152;
+            }
+
+            .phone {
+                background-image: url("../img/header_phone.png");
+                
+            }
+        }
+    }
+
+
+
+
+
+}

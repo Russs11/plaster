@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Montserrat-semibold';
+  src: url("../fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+}
+
+.container .header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  justify-items: center;
+  width: 100%;
+  height: 152px;
+  border: 1px solid #000;
+}
+
+.container .header .header_wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1160px;
+}
+
+.container .header .item {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000;
+}
+
+.container .header .item_1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  width: 300px;
+}
+
+.container .header .item_1 .header_logo_2 {
+  background-image: url("../img/header_logo2.png");
+}
+
+.container .header .item_2 {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  background: rgba(45, 166, 221, 0.2);
+  border-radius: 999px;
+  height: 37px;
+  font-family: 'Montserrat-semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: #254152;
+}
+
+.container .header .item_3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.container .header .item_3 .text {
+  font-family: 'Montserrat-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: right;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #254152;
+}
+
+.container .header .item_3 .phone {
+  background-image: url("../img/header_phone.png");
+}
