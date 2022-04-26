@@ -166,7 +166,7 @@
             }
         }
     }
-    .first_screen {
+    .screen_1 {
         display: grid;
         grid-template-rows: 1fr;
         align-items: center;
@@ -200,6 +200,48 @@
                 letter-spacing: 0.02em;
                 color: #254152;
             }
+        }
+    }
+    .screen_2 {
+        display: grid;
+        grid-template-rows: 1fr;
+        align-items: center;
+        // height: 570px;
+        width: 1200px;
+        margin-top: 110px;
+        .text_1 {
+            font-family: "Montserrat-bold";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 118%;
+            /* or 45px */
+            text-transform: uppercase;
+            color: #254152;
+        }
+        .text_2 {
+            margin-top: 20px;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 140%;
+            /* or 25px */
+            letter-spacing: 0.02em;
+            color: #254152;
+        }
+        .contain_2{
+            justify-items: center;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 100px;
+            align-items: center;
+            // height: 570px;
+            width: 1200px;
+            height: 100px;
+            // margin-top: 110px;
+
+
         }
     }
 }

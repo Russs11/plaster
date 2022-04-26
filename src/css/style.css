@@ -205,7 +205,7 @@
   display: grid;
 }
 
-.container .first_screen {
+.container .screen_1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr;
@@ -220,7 +220,7 @@
   background-size: cover;
 }
 
-.container .first_screen .contain {
+.container .screen_1 .contain {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -228,7 +228,7 @@
   margin-left: 70px;
 }
 
-.container .first_screen .contain .text_1 {
+.container .screen_1 .contain .text_1 {
   font-family: "Montserrat-bold";
   font-style: normal;
   font-weight: 700;
@@ -239,7 +239,7 @@
   color: #254152;
 }
 
-.container .first_screen .contain .text_2 {
+.container .screen_1 .contain .text_2 {
   margin-top: 20px;
   font-family: "Montserrat";
   font-style: normal;
@@ -249,4 +249,54 @@
   /* or 25px */
   letter-spacing: 0.02em;
   color: #254152;
+}
+
+.container .screen_2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  margin-top: 110px;
+}
+
+.container .screen_2 .text_1 {
+  font-family: "Montserrat-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 118%;
+  /* or 45px */
+  text-transform: uppercase;
+  color: #254152;
+}
+
+.container .screen_2 .text_2 {
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .screen_2 .contain_2 {
+  justify-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 100px;
+      grid-template-rows: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  height: 100px;
 }
