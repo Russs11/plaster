@@ -152,8 +152,9 @@
 .container .links_wrapper .links {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[8];
-      grid-template-columns: repeat(8, 1fr);
+  -ms-grid-columns: (auto)[8];
+      grid-template-columns: repeat(8, auto);
+  grid-column-gap: 24px;
   -ms-grid-rows: max-content;
       grid-template-rows: -webkit-max-content;
       grid-template-rows: max-content;
@@ -287,11 +288,13 @@
 }
 
 .container .screen_2 .contain_2 {
-  justify-items: center;
   display: -ms-grid;
   display: grid;
+  justify-items: center;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
   -ms-grid-rows: 100px;
       grid-template-rows: 100px;
   -webkit-box-align: center;
@@ -299,4 +302,72 @@
           align-items: center;
   width: 1200px;
   height: 100px;
+  margin-top: 80px;
+}
+
+.container .screen_2 .contain_2 .item_1,
+.container .screen_2 .contain_2 .item_2,
+.container .screen_2 .contain_2 .item_3,
+.container .screen_2 .contain_2 .item_4 {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  font-family: "Montserrat-semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  /* or 86px */
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .screen_2 .contain_2 .text {
+  display: -ms-grid;
+  display: grid;
+  justify-items: start;
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .screen_3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  justify-items: center;
+  width: 100%;
+  height: 730px;
+  margin-top: 140px;
+  background: #E7F2F9;
+}
+
+.container .screen_3 .text_1 {
+  font-family: "Montserrat-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 118%;
+  /* or 45px */
+  text-transform: uppercase;
+  color: #254152;
+}
+
+.container .screen_3 .text_2 {
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  letter-spacing: 0.02em;
+  color: #254152;
 }
