@@ -106,15 +106,13 @@
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
 }
 
 .container .header .item_3 .phone {
   background-image: url("../img/header_phone.png");
-  width: 23px;
-  height: 23px;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
 }
 
 .container .header .item_3 .text {

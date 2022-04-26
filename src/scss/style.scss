@@ -81,12 +81,13 @@
             grid-template-columns: 1fr 3fr;
             // grid-template-rows: 30px;
             width: max-content;
-            height: max-content;
+            // height: 25px;
 
             .phone {
                 background-image: url("../img/header_phone.png");
-                width: 23px;
-                height: 23px;
+                background-size: cover;
+                width: 25px;
+                height: 25px;
             }
 
             .text {
