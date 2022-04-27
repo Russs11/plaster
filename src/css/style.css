@@ -551,7 +551,7 @@
       grid-template-rows: 500px;
   justify-items: center;
   width: 100%;
-  height: auto;
+  height: 1660px;
   background: #e7f2f9;
 }
 
@@ -612,6 +612,7 @@
   display: grid;
   justify-items: center;
   row-gap: 40px;
+  margin-top: 90px;
 }
 
 .container .screen_5 .cards_prices .card .img_1,
@@ -680,6 +681,7 @@
   height: -moz-fit-content;
   height: fit-content;
   padding-left: 40px;
+  margin-bottom: 100px;
 }
 
 .container .screen_5 .list_wrapper .list {
