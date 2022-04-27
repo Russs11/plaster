@@ -637,9 +637,7 @@
 }
 
 .container .screen_5 .cards_prices .snip {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
+  font-family: "Montserrat-semibold";
   font-size: 22px;
   line-height: 140%;
   text-align: center;
@@ -653,4 +651,51 @@
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2da6dd;
+}
+
+.container .screen_5 .list_head {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  margin-top: 90px;
+  font-family: "Montserrat-bold";
+  font-size: 28px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .screen_5 .list_wrapper {
+  margin-top: 60px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  width: 1200px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+
+.container .screen_5 .list_wrapper .list {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Montserrat-semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .screen_5 .list_wrapper .list li {
+  width: 270px;
+  height: 45px;
 }

@@ -519,9 +519,7 @@
                 }
             }
             .snip {
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 600;
+                font-family: "Montserrat-semibold";
                 font-size: 22px;
                 line-height: 140%;
                 text-align: center;
@@ -534,6 +532,41 @@
                 line-height: 120%;
                 letter-spacing: 0.02em;
                 color: #2da6dd;
+            }
+        }
+        .list_head {
+            display: grid;
+            grid-template-rows: 1fr;
+            margin-top: 90px;
+            font-family: "Montserrat-bold";
+            font-size: 28px;
+            line-height: 140%;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #254152;
+        }
+        .list_wrapper {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 50px;
+            width: 1200px;
+            height: fit-content;
+            padding: 20px;
+            .list {
+                height: fit-content;
+                font-family: "Montserrat-semibold";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                letter-spacing: 0.02em;
+                color: #254152;
+                li{
+                    width: 270px;
+                    height: 45px;
+                    // margin: 20px;
+                }
             }
         }
     }
