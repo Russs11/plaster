@@ -683,6 +683,11 @@
 }
 
 .container .screen_5 .list_wrapper .list {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;

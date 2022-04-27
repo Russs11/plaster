@@ -554,6 +554,8 @@
             height: fit-content;
             padding: 20px;
             .list {
+                display: grid;
+                align-items: baseline;
                 height: fit-content;
                 font-family: "Montserrat-semibold";
                 font-style: normal;
