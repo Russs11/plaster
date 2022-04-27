@@ -552,9 +552,10 @@
             column-gap: 50px;
             width: 1200px;
             height: fit-content;
-            padding: 20px;
+            padding-left: 40px;
             .list {
                 display: grid;
+                grid-template-rows: max-content;
                 align-items: baseline;
                 height: fit-content;
                 font-family: "Montserrat-semibold";
