@@ -145,7 +145,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  justify-items: center;
   width: 1200px;
 }
 
@@ -169,12 +168,6 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #254152;
-}
-
-.container .links_wrapper .links .link_2 {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
 }
 
 .container .links_wrapper .links .btn {
@@ -229,7 +222,7 @@
   margin-left: 70px;
 }
 
-.container .screen_1 .contain .text_1 {
+.container .screen_1 .contain .text_big {
   font-family: "Montserrat-bold";
   font-style: normal;
   font-weight: 700;
@@ -240,7 +233,7 @@
   color: #254152;
 }
 
-.container .screen_1 .contain .text_2 {
+.container .screen_1 .contain .text_small {
   margin-top: 20px;
   font-family: "Montserrat";
   font-style: normal;
@@ -264,7 +257,7 @@
   margin-top: 110px;
 }
 
-.container .screen_2 .text_1 {
+.container .screen_2 .text_big {
   font-family: "Montserrat-bold";
   font-style: normal;
   font-weight: 700;
@@ -275,7 +268,7 @@
   color: #254152;
 }
 
-.container .screen_2 .text_2 {
+.container .screen_2 .text_small {
   margin-top: 20px;
   font-family: "Montserrat";
   font-style: normal;
@@ -305,10 +298,7 @@
   margin-top: 80px;
 }
 
-.container .screen_2 .contain_2 .item_1,
-.container .screen_2 .contain_2 .item_2,
-.container .screen_2 .contain_2 .item_3,
-.container .screen_2 .contain_2 .item_4 {
+.container .screen_2 .contain_2 .numbers {
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -322,7 +312,7 @@
   color: #254152;
 }
 
-.container .screen_2 .contain_2 .text {
+.container .screen_2 .contain_2 .text_small {
   display: -ms-grid;
   display: grid;
   justify-items: start;
@@ -342,14 +332,13 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  justify-items: center;
   width: 100%;
   height: 730px;
   margin-top: 140px;
-  background: #E7F2F9;
+  background: #e7f2f9;
 }
 
-.container .screen_3 .text_1 {
+.container .screen_3 .text_big {
   font-family: "Montserrat-bold";
   font-style: normal;
   font-weight: 700;
@@ -360,7 +349,7 @@
   color: #254152;
 }
 
-.container .screen_3 .text_2 {
+.container .screen_3 .text_small {
   margin-top: 20px;
   font-family: "Montserrat";
   font-style: normal;
@@ -370,4 +359,22 @@
   /* or 25px */
   letter-spacing: 0.02em;
   color: #254152;
+}
+
+.container .screen_3 .contain_2 {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  -ms-grid-rows: 100px;
+      grid-template-rows: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  height: 100px;
+  margin-top: 80px;
 }
