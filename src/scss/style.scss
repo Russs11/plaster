@@ -562,10 +562,14 @@
                 line-height: 140%;
                 letter-spacing: 0.02em;
                 color: #254152;
-                li{
+                li {
+                    padding-left: 20px;
                     width: 270px;
                     height: 45px;
-                    // margin: 20px;
+                    // margin: 20px
+                }
+                li::marker {
+                    content: url("../img/list.svg");
                 }
             }
         }

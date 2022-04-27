@@ -696,6 +696,11 @@
 }
 
 .container .screen_5 .list_wrapper .list li {
+  padding-left: 20px;
   width: 270px;
   height: 45px;
+}
+
+.container .screen_5 .list_wrapper .list li::marker {
+  content: url("../img/list.svg");
 }
