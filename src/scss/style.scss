@@ -13,6 +13,25 @@
     src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
 }
 
+@mixin big_text {
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 118%;
+    text-transform: uppercase;
+    color: #254152;
+}
+
+@mixin small_text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #254152;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -186,26 +205,12 @@
             margin-left: 70px;
 
             .text_big {
-                font-family: "Montserrat-bold";
-                font-style: normal;
-                font-weight: 700;
-                font-size: 38px;
-                line-height: 118%;
-                /* or 45px */
-                text-transform: uppercase;
-                color: #254152;
+                @include big_text();
             }
 
             .text_small {
-                margin-top: 20px;
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 140%;
-                /* or 25px */
-                letter-spacing: 0.02em;
-                color: #254152;
+                @include small_text();
+
             }
         }
     }
@@ -219,26 +224,13 @@
         margin-top: 110px;
 
         .text_big {
-            font-family: "Montserrat-bold";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 38px;
-            line-height: 118%;
-            /* or 45px */
-            text-transform: uppercase;
-            color: #254152;
+            @include big_text();
+
         }
 
         .text_small {
+            @include small_text();
             margin-top: 20px;
-            font-family: "Montserrat";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 140%;
-            /* or 25px */
-            letter-spacing: 0.02em;
-            color: #254152;
         }
 
         .contain_2 {
@@ -301,26 +293,13 @@
         }
 
         .text_big {
-            font-family: "Montserrat-bold";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 38px;
-            line-height: 118%;
-            /* or 45px */
-            text-transform: uppercase;
-            color: #254152;
+            @include big_text();
+
         }
 
         .text_small {
             margin-top: 20px;
-            font-family: "Montserrat";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 140%;
-            /* or 25px */
-            letter-spacing: 0.02em;
-            color: #254152;
+            @include small_text();
         }
 
         .cards {
@@ -380,6 +359,7 @@
                     display: grid;
                     justify-items: center;
                     text-align: center;
+                    @include small_text();
                 }
             }
         }
@@ -402,26 +382,13 @@
             margin-top: 100px;
 
             .text_big {
-                font-family: "Montserrat-bold";
-                font-style: normal;
-                font-weight: 700;
-                font-size: 38px;
-                line-height: 118%;
-                /* or 45px */
-                text-transform: uppercase;
-                color: #254152;
+                @include big_text();
+
             }
 
             .text_small {
                 margin-top: 20px;
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 140%;
-                /* or 25px */
-                letter-spacing: 0.02em;
-                color: #254152;
+                @include small_text();
             }
         }
 
@@ -454,15 +421,7 @@
             .text_small {
                 display: grid;
                 margin-top: 20px;
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 140%;
-                text-align: justify;
-                /* or 25px */
-                letter-spacing: 0.02em;
-                color: #254152;
+                @include small_text();
             }
 
             .link {
@@ -498,26 +457,13 @@
             margin-top: 100px;
 
             .text_big {
-                font-family: "Montserrat-bold";
-                font-style: normal;
-                font-weight: 700;
-                font-size: 38px;
-                line-height: 118%;
-                /* or 45px */
-                text-transform: uppercase;
-                color: #254152;
+                @include big_text();
+
             }
 
             .text_small {
                 margin-top: 20px;
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 140%;
-                /* or 25px */
-                letter-spacing: 0.02em;
-                color: #254152;
+                @include small_text();
             }
         }
 
@@ -657,24 +603,13 @@
             margin-top: 100px;
 
             .text_big {
-                font-family: "Montserrat-bold";
-                font-style: normal;
-                font-weight: 700;
-                font-size: 38px;
-                line-height: 118%;
-                text-transform: uppercase;
-                color: #254152;
+                @include big_text();
+
             }
 
             .text_small {
                 margin-top: 20px;
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 140%;
-                letter-spacing: 0.02em;
-                color: #254152;
+                @include small_text();
             }
         }
 
