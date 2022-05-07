@@ -701,6 +701,7 @@
                 }
 
             }
+
             .right_side {
                 display: grid;
                 // grid-template-columns: 1fr;
@@ -764,6 +765,135 @@
                         color: #254152;
                     }
                 }
+            }
+        }
+    }
+
+    .using_materials {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 100%;
+        height: 1084px;
+        padding: 140px;
+
+        .title {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 1200px;
+            height: 100px;
+            //    margin-top: 100px;
+        }
+
+        .text_big {
+            @include big_text();
+
+        }
+
+        .text_small {
+            margin-top: 20px;
+            @include small_text();
+        }
+
+        .cards {
+            display: grid;
+            justify-items: center;
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: 40px;
+            grid-template-rows: 525px;
+            align-items: center;
+            width: 1200px;
+            margin-top: 80px;
+
+            .card {
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                width: 260px;
+                height: 525px;
+                box-shadow: 0px 0px 15px rgba(37, 65, 82, 0.2);
+                border-radius: 10px;
+                padding: 40px 20px;
+
+                .img {
+                    width: 220px;
+                    height: 220px;
+                    background-image: url("../img/bag.png");
+                }
+
+                .text_1 {
+                    margin-top: 40px;
+                    font-family: 'Montserrat-semibold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 140%;
+                    letter-spacing: 0.02em;
+                    color: #254152;
+                }
+
+                .text_2 {
+                    margin-top: 20px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    letter-spacing: 0.02em;
+                    color: #254152;
+                }
+
+                .link {
+                    margin-top: 40px;
+
+                    a {
+                        font-family: 'Montserrat-semibold';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 140%;
+                        letter-spacing: 0.02em;
+                        text-decoration-line: underline;
+                        color: #2DA6DD;
+                    }
+                }
+            }
+
+        }
+
+        .arrows {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: 30px;
+            align-items: center;
+            justify-items: center;
+            width: 160px;
+            height: 30px;
+            // border: 1px solid #000;
+
+            .left_arrow {
+                background-image: url("../img/left_blue_arrow.svg");
+                width: 12px;
+                height: 30px;
+            }
+
+            .grey_dot {
+                background-image: url("../img/greyDot.svg");
+                width: 8px;
+                height: 8px;
+                background-size: auto;
+            }
+
+            .blue_dot {
+                background-image: url("../img/blueDot.svg");
+                width: 8px;
+                height: 8px;
+                background-size: auto;
+            }
+            .right_arrow{
+                background-image: url("../img/right_blue_arrow.svg");
+                width: 12px;
+                height: 30px;
             }
         }
     }
