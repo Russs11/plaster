@@ -832,6 +832,7 @@
   width: 100%;
   height: 500px;
   background: #e7f2f9;
+  padding: 100px;
 }
 
 .container .contact_screen .contact_wrapper {
@@ -841,23 +842,6 @@
       grid-template-columns: 1fr 1fr;
   width: 1200px;
   height: 100%;
-}
-
-.container .contact_screen .contact_wrapper .left_side {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  width: 600px;
-}
-
-.container .contact_screen .contact_wrapper .left_side .title {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  height: 100px;
-  margin-top: 100px;
 }
 
 .container .contact_screen .contact_wrapper .left_side .title .text_big {
@@ -878,4 +862,65 @@
   letter-spacing: 0.02em;
   color: #254152;
   margin-top: 20px;
+}
+
+.container .contact_screen .contact_wrapper .right_side {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 60px 80px;
+      grid-template-rows: 60px 80px;
+}
+
+.container .contact_screen .contact_wrapper .right_side input {
+  width: 560px;
+  height: 60px;
+  padding: 0 20px;
+  background: rgba(37, 65, 82, 0.2);
+  border-radius: 10px;
+  border: 0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgba(37, 65, 82, 0.65);
+}
+
+.container .contact_screen .contact_wrapper .right_side input:nth-child(2) {
+  margin-top: 20px;
+}
+
+.container .contact_screen .contact_wrapper .right_side .button_send {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 190px;
+  margin-top: 40px;
+  background-color: #254152;
+  border-radius: 999px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.container .contact_screen .contact_wrapper .right_side .processing_personal_data {
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgba(37, 65, 82, 0.65);
+}
+
+.container .contact_screen .contact_wrapper .right_side .processing_personal_data span {
+  color: #254152;
 }

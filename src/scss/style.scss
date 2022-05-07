@@ -670,27 +670,25 @@
         width: 100%;
         height: 500px;
         background: #e7f2f9;
+        padding: 100px;
 
         .contact_wrapper {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            // align-items: center;
             // justify-items: center;
             width: 1200px;
             height: 100%;
 
             .left_side {
-                display: grid;
-                grid-template-columns: 1fr;
-
-                width: 600px;
+                // display: grid;
+                // grid-template-columns: 1fr;
+                // width: 600px;
 
                 .title {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    //  justify-items: center;
-                    // width: 560px;
-                    height: 100px;
-                    margin-top: 100px;
+                    // display: grid;
+                    // grid-template-columns: 1fr;
+                    // height: 100px;
 
                     .text_big {
                         @include big_text ();
@@ -700,15 +698,73 @@
                         @include small_text();
                         margin-top: 20px;
                     }
-
                 }
 
-
             }
+            .right_side {
+                display: grid;
+                // grid-template-columns: 1fr;
+                grid-template-rows: 60px 80px;
 
+                input {
+                    width: 560px;
+                    height: 60px;
 
+                    padding: 0 20px;
 
+                    background: rgba(37, 65, 82, 0.2);
+                    border-radius: 10px;
+                    border: 0;
 
+                    font-family: "Montserrat";
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+
+                    letter-spacing: 0.02em;
+
+                    color: rgba(37, 65, 82, 0.65);
+                }
+
+                input:nth-child(2) {
+                    margin-top: 20px;
+                }
+
+                .button_send {
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+
+                    height: 60px;
+                    width: 190px;
+
+                    margin-top: 40px;
+
+                    background-color: #254152;
+                    border-radius: 999px;
+
+                    font-family: "Montserrat";
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 120%;
+                    color: #ffffff;
+                }
+
+                .processing_personal_data {
+                    margin-top: 20px;
+
+                    font-family: "Montserrat";
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 140%;
+                    letter-spacing: 0.02em;
+                    color: rgba(37, 65, 82, 0.65);
+
+                    span {
+                        color: #254152;
+                    }
+                }
+            }
         }
     }
 }
