@@ -1085,13 +1085,14 @@
 
             .row_1 {
                 display: grid;
-                justify-items: start;
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: 30px auto 30px auto 30px auto;
+                column-gap: 20px;
                 grid-template-rows: 50px;
+                justify-items: baseline;
                 width: 1200px;
-                height: 50px;
-                column-gap: 150px;
                 align-items: center;
+                height: 50px;
+                grid-auto-flow: row;
 
                 .list {
                     display: grid;
@@ -1111,20 +1112,60 @@
                     letter-spacing: 0.02em;
                     color: #254152;
                 }
+
+                .text {
+                    font-family: 'Montserrat-semibold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 140%;
+                    letter-spacing: 0.02em;
+                    color: #254152;
+                }
             }
-            .row_2{
+
+            .row_2 {
                 display: grid;
-                grid-template-columns: repeat(5, 1fr);
-                grid-template-rows: 76px;
+                grid-template-columns: repeat(9, auto);
+                justify-items: center;
+                grid-template-rows: 1fr;
+                align-items: center;
                 width: 1200px;
                 height: 76px;
 
-                .img_1, .img_2, .img_3, .img_4, .img_5{
+                .img_1,
+                .img_2,
+                .img_3,
+                .img_4,
+                .img_5 {
                     width: 76px;
                     height: 76px;
-                } 
-                .img_1{
+                }
+
+                .img_1 {
                     background-image: url("../img/how we work/card_1.png");
+                }
+
+                .arrow {
+                    background-image: url("../img/how we work/arrow.png");
+                    width: 72px;
+                    height: 14px;
+                }
+
+                .img_2 {
+                    background-image: url("../img/how we work/card_2.png");
+                }
+
+                .img_3 {
+                    background-image: url("../img/how we work/card_3.png");
+                }
+
+                .img_4 {
+                    background-image: url("../img/how we work/card_4.png");
+                }
+
+                .img_5 {
+                    background-image: url("../img/how we work/card_5.png");
                 }
 
             }

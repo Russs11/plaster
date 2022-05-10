@@ -1306,18 +1306,19 @@
 .container .how_we_work .work_list .row_1 {
   display: -ms-grid;
   display: grid;
-  justify-items: start;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: 30px auto 30px auto 30px auto;
+      grid-template-columns: 30px auto 30px auto 30px auto;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
   -ms-grid-rows: 50px;
       grid-template-rows: 50px;
+  justify-items: baseline;
   width: 1200px;
-  height: 50px;
-  -webkit-column-gap: 150px;
-          column-gap: 150px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 50px;
+  grid-auto-flow: row;
 }
 
 .container .how_we_work .work_list .row_1 .list {
@@ -1342,22 +1343,62 @@
   color: #254152;
 }
 
+.container .how_we_work .work_list .row_1 .text {
+  font-family: 'Montserrat-semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
 .container .how_we_work .work_list .row_2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
-  -ms-grid-rows: 76px;
-      grid-template-rows: 76px;
+  -ms-grid-columns: (auto)[9];
+      grid-template-columns: repeat(9, auto);
+  justify-items: center;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 1200px;
   height: 76px;
 }
 
-.container .how_we_work .work_list .row_2 .img_1, .container .how_we_work .work_list .row_2 .img_2, .container .how_we_work .work_list .row_2 .img_3, .container .how_we_work .work_list .row_2 .img_4, .container .how_we_work .work_list .row_2 .img_5 {
+.container .how_we_work .work_list .row_2 .img_1,
+.container .how_we_work .work_list .row_2 .img_2,
+.container .how_we_work .work_list .row_2 .img_3,
+.container .how_we_work .work_list .row_2 .img_4,
+.container .how_we_work .work_list .row_2 .img_5 {
   width: 76px;
   height: 76px;
 }
 
 .container .how_we_work .work_list .row_2 .img_1 {
   background-image: url("../img/how we work/card_1.png");
+}
+
+.container .how_we_work .work_list .row_2 .arrow {
+  background-image: url("../img/how we work/arrow.png");
+  width: 72px;
+  height: 14px;
+}
+
+.container .how_we_work .work_list .row_2 .img_2 {
+  background-image: url("../img/how we work/card_2.png");
+}
+
+.container .how_we_work .work_list .row_2 .img_3 {
+  background-image: url("../img/how we work/card_3.png");
+}
+
+.container .how_we_work .work_list .row_2 .img_4 {
+  background-image: url("../img/how we work/card_4.png");
+}
+
+.container .how_we_work .work_list .row_2 .img_5 {
+  background-image: url("../img/how we work/card_5.png");
 }
