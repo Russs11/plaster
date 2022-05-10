@@ -32,6 +32,17 @@
     color: #254152;
 }
 
+@mixin link {
+    font-family: 'Montserrat-semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #2DA6DD;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -253,7 +264,6 @@
                 font-weight: 600;
                 font-size: 72px;
                 line-height: 120%;
-                /* or 86px */
                 letter-spacing: 0.02em;
                 color: #254152;
             }
@@ -261,15 +271,8 @@
             .text_small {
                 display: grid;
                 justify-items: start;
+                @include small_text();
                 margin-top: 10px;
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 140%;
-                /* or 25px */
-                letter-spacing: 0.02em;
-                color: #254152;
             }
         }
     }
@@ -425,15 +428,7 @@
             }
 
             .link {
-                font-family: "Montserrat-semibold";
-                font-style: normal;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 140%;
-                /* or 22px */
-                letter-spacing: 0.02em;
-                text-decoration-line: underline;
-                color: #2da6dd;
+                @include link();
                 margin-top: 40px;
             }
         }
@@ -572,15 +567,7 @@
                 }
 
                 .link {
-                    font-family: "Montserrat-semibold";
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    line-height: 140%;
-                    /* or 22px */
-                    letter-spacing: 0.02em;
-                    text-decoration-line: underline;
-                    color: #2da6dd;
+                    @include link();
                     margin-top: 20px;
                 }
             }
@@ -846,14 +833,7 @@
                     margin-top: 40px;
 
                     a {
-                        font-family: 'Montserrat-semibold';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 16px;
-                        line-height: 140%;
-                        letter-spacing: 0.02em;
-                        text-decoration-line: underline;
-                        color: #2DA6DD;
+                        @include link();
                     }
                 }
             }
@@ -1036,14 +1016,7 @@
             // margin-top: 80px;
 
             a {
-                font-family: 'Montserrat-semibold';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 140%;
-                letter-spacing: 0.02em;
-                text-decoration-line: underline;
-                color: #2DA6DD;
+              @include link();
             }
 
 

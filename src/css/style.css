@@ -300,7 +300,6 @@
   font-weight: 600;
   font-size: 72px;
   line-height: 120%;
-  /* or 86px */
   letter-spacing: 0.02em;
   color: #254152;
 }
@@ -309,15 +308,14 @@
   display: -ms-grid;
   display: grid;
   justify-items: start;
-  margin-top: 10px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
-  /* or 25px */
   letter-spacing: 0.02em;
   color: #254152;
+  margin-top: 10px;
 }
 
 .container .screen_3 {
@@ -521,16 +519,15 @@
 }
 
 .container .screen_4 .video_screen .link {
-  font-family: "Montserrat-semibold";
+  font-family: 'Montserrat-semibold';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   letter-spacing: 0.02em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2da6dd;
+  color: #2DA6DD;
   margin-top: 40px;
 }
 
@@ -706,16 +703,15 @@
 }
 
 .container .screen_5 .list_wrapper .list .link {
-  font-family: "Montserrat-semibold";
+  font-family: 'Montserrat-semibold';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   letter-spacing: 0.02em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2da6dd;
+  color: #2DA6DD;
   margin-top: 20px;
 }
 
