@@ -1398,3 +1398,213 @@
 .container .how_we_work .work_list .row_2 .img_5 {
   background-image: url("../img/how we work/card_5.png");
 }
+
+.container .how_we_work .work_list .row_3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30px auto 30px auto;
+      grid-template-columns: 30px auto 30px auto;
+  gap: 40px;
+  -ms-grid-rows: 50px;
+      grid-template-rows: 50px;
+  justify-items: center;
+  width: 800px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  grid-auto-flow: row;
+}
+
+.container .how_we_work .work_list .row_3 .list {
+  margin-left: 130px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 4px solid #2DA6DD;
+  border-radius: 999px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 75%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .how_we_work .work_list .row_3 .text {
+  font-family: 'Montserrat-semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .our_instagram {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  justify-items: center;
+  width: 100%;
+  height: 820px;
+  padding: 100px;
+  background: #e7f2f9;
+  gap: 90px;
+}
+
+.container .our_instagram .title {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  width: 1200px;
+  height: 100px;
+}
+
+.container .our_instagram .title .text_big {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 118%;
+  text-transform: uppercase;
+  color: #254152;
+}
+
+.container .our_instagram .title .text_small {
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .our_instagram .instagram_screen {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 415px;
+      grid-template-rows: 415px;
+  width: 1160px;
+  height: 414px;
+  background-image: url("../img/instagram.jpg");
+}
+
+.container .our_equipment {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  height: 1024px;
+  padding: 100px;
+}
+
+.container .our_equipment .title {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  width: 1200px;
+  height: 100px;
+}
+
+.container .our_equipment .title .text_big {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 118%;
+  text-transform: uppercase;
+  color: #254152;
+}
+
+.container .our_equipment .title .text_small {
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .our_equipment .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 1200px;
+}
+
+.container .our_equipment .cards .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  justify-items: center;
+}
+
+.container .our_equipment .cards .card .img_1 {
+  background-image: url("../img/station_pft_G4.jpg");
+  height: 360px;
+  width: 360px;
+}
+
+.container .our_equipment .cards .card .img_2 {
+  background-image: url("../img/station_kaleta_5.jpg");
+  height: 360px;
+  width: 360px;
+}
+
+.container .our_equipment .cards .card .img_3 {
+  background-image: url("../img/station_ritmo_xl.jpg");
+  height: 360px;
+  width: 360px;
+}
+
+.container .our_equipment .cards .card .text {
+  margin-top: 40px;
+  font-family: 'Montserrat-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .our_equipment .cards .card .link {
+  margin-top: 20px;
+}
+
+.container .our_equipment .cards .card .link a {
+  font-family: 'Montserrat-semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #2DA6DD;
+}
