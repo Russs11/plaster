@@ -1498,9 +1498,10 @@
       grid-template-columns: 1fr;
   -ms-grid-rows: 415px;
       grid-template-rows: 415px;
-  width: 1160px;
+  width: 1200px;
   height: 414px;
   background-image: url("../img/instagram.jpg");
+  background-size: cover;
 }
 
 .container .our_equipment {
@@ -1621,7 +1622,7 @@
       grid-template-columns: 1fr;
   justify-items: center;
   width: 100%;
-  height: 1480px;
+  height: 1500px;
   padding: 100px;
   background: #e7f2f9;
 }
@@ -1653,4 +1654,118 @@
   line-height: 140%;
   letter-spacing: 0.02em;
   color: #254152;
+}
+
+.container .cost_calculator .two_cards {
+  margin-top: 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 380px;
+      grid-template-columns: 2fr 380px;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  justify-items: stretch;
+  width: 1200px;
+  height: 560px;
+}
+
+.container .cost_calculator .two_cards .white_card {
+  display: -ms-grid;
+  display: grid;
+  height: 450px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.container .cost_calculator .two_cards .white_card .square {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+}
+
+.container .cost_calculator .two_cards .white_card .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  background: rgba(37, 65, 82, 0.2);
+  border-radius: 10px;
+  outline: none;
+  -webkit-transition: .2s;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.container .cost_calculator .two_cards .white_card .slider:hover {
+  opacity: 1;
+}
+
+.container .cost_calculator .two_cards .white_card .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #254152;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.container .cost_calculator .two_cards .white_card .slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #254152;
+  cursor: pointer;
+}
+
+.container .cost_calculator .two_cards .black_card {
+  display: -ms-grid;
+  display: grid;
+  height: 575px;
+  background: #254152;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.container .cost_calculator .two_cards .caps_text {
+  margin-top: 95px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  /* identical to box height, or 34px */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #254152;
+}
+
+.container .cost_calculator .three_cards {
+  margin-top: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 475px;
+      grid-template-rows: 475px;
+  width: 1200px;
+  height: 475px;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .cost_calculator .three_cards .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  height: 475px;
+  background: #FFFFFF;
+  border-radius: 20px;
 }
