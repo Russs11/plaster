@@ -416,11 +416,22 @@
                 <div class="white_card_wrapper">
                     <div class="white_card">
                         <div class="square">
-
-                            <input type="range" min="200 м2" max="3000 м2" value="50" class="slider" id="myRange">
+                            <div class="text">Площадь стен
+                                <input type="range" min="200 м2" max="3000 м2" value="50" class="slider" id="myRange">
+                            </div>
                             <div class="value">1400м2</div>
                         </div>
-                        <input type="range" min="10мм" max="30мм" value="50" class="slider" id="myRange">
+                        <div class="layer_thickness">
+                            <div class="text">
+                                Толщина слоя
+                                <input type="range" min="10мм"  max="30мм" value="50" class="slider" id="myRange">
+                            </div>
+                            <div class="value">24 мм</div>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" class="checkbox-style" id="checkbox_1">
+                            <label for="checkbox_1" class="text">Включить в стоимость материалов</label>
+                        </div>
                     </div>
                     <div class="caps_text">В стоимость включено абсолютно все!</div>
                 </div>
