@@ -1527,14 +1527,79 @@
 
             .black_card {
                 display: grid;
-                // width: 360px;
+                grid-template-columns: 1fr;
+                justify-items: center;
+                // grid-template-rows: 4fr;
                 height: 575px;
                 background: #254152;
                 border-radius: 20px;
-                padding: 40px;
+                padding: 60px 40px;
+
+                .title_text {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 110%;
+                    /* or 26px */
+                    letter-spacing: 0.02em;
+                    color: #ffffff;
+                    text-align: left;
+                }
+                .grey_text {
+                    margin-top: 40px;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    /* or 22px */
+                    text-align: center;
+                    letter-spacing: 0.02em;
+                    color: rgba(255, 255, 255, 0.65);
+                }
+                .price_text {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 110%;
+                    /* or 26px */
+                    letter-spacing: 0.02em;
+                    color: #ffffff;
+                    text-align: center;
+                }
+                .btn {
+                    display: grid;
+                    justify-items: center;
+                    align-items: center;
+                    width: 241px;
+                    height: 59px;
+                    background: #2da6dd;
+                    border-radius: 999px;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 120%;
+                    /* or 19px */
+                    color: #ffffff;
+                    margin-top: 40px;
+                }
+                .paragraph {
+                    margin-top: 40px;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    /* or 22px */
+                    letter-spacing: 0.02em;
+                    color: rgba(255, 255, 255, 0.65);
+                }
             }
 
-            .caps_text {
+            .sub_title {
                 margin-top: 95px;
                 font-family: "Montserrat";
                 font-style: normal;
@@ -1561,10 +1626,49 @@
             .card {
                 display: grid;
                 grid-template-columns: 1fr;
+                grid-template-rows: 1fr 2fr;
                 // width: 360px;
                 height: 475px;
                 background: #ffffff;
                 border-radius: 20px;
+                padding: 0 40px;
+            }
+            .head {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                align-items: center;
+            }
+            .materials_text {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 110%;
+                /* or 26px */
+                letter-spacing: 0.02em;
+                color: #254152;
+            }
+            .upper_text {
+                margin-top: 50px;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 110%;
+                /* or 23px */
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #254152;
+            }
+            .icon_1 {
+                background-image: url("../img/calculator/icon_1.png");
+                height: 64px;
+                width: 64px;
+            }
+            .icon_2 {
+                background-image: url("../img/calculator/icon_2.png");
+                height: 64px;
+                width: 64px;
             }
         }
     }

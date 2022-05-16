@@ -524,7 +524,7 @@
 }
 
 .container .screen_4 .video_screen .link {
-  font-family: 'Montserrat-semibold';
+  font-family: "Montserrat-semibold";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -532,7 +532,7 @@
   letter-spacing: 0.02em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2DA6DD;
+  color: #2da6dd;
   margin-top: 40px;
 }
 
@@ -708,7 +708,7 @@
 }
 
 .container .screen_5 .list_wrapper .list .link {
-  font-family: 'Montserrat-semibold';
+  font-family: "Montserrat-semibold";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -716,7 +716,7 @@
   letter-spacing: 0.02em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2DA6DD;
+  color: #2da6dd;
   margin-top: 20px;
 }
 
@@ -1004,7 +1004,7 @@
 
 .container .using_materials .cards .card .text_1 {
   margin-top: 40px;
-  font-family: 'Montserrat-semibold';
+  font-family: "Montserrat-semibold";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -1015,7 +1015,7 @@
 
 .container .using_materials .cards .card .text_2 {
   margin-top: 20px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1029,7 +1029,7 @@
 }
 
 .container .using_materials .cards .card .link a {
-  font-family: 'Montserrat-semibold';
+  font-family: "Montserrat-semibold";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1037,7 +1037,7 @@
   letter-spacing: 0.02em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2DA6DD;
+  color: #2da6dd;
 }
 
 .container .using_materials .arrows {
@@ -1161,10 +1161,10 @@
           align-items: center;
   width: 40px;
   height: 40px;
-  background: #FFFFFF;
-  border: 4px solid #2DA6DD;
+  background: #ffffff;
+  border: 4px solid #2da6dd;
   border-radius: 999px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -1242,7 +1242,7 @@
 }
 
 .container .machine_plastering .link_wrapper a {
-  font-family: 'Montserrat-semibold';
+  font-family: "Montserrat-semibold";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1250,7 +1250,7 @@
   letter-spacing: 0.02em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2DA6DD;
+  color: #2da6dd;
 }
 
 .container .how_we_work {
@@ -1331,10 +1331,10 @@
           align-items: center;
   width: 40px;
   height: 40px;
-  background: #FFFFFF;
-  border: 4px solid #2DA6DD;
+  background: #ffffff;
+  border: 4px solid #2da6dd;
   border-radius: 999px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -1345,7 +1345,7 @@
 }
 
 .container .how_we_work .work_list .row_1 .text {
-  font-family: 'Montserrat-semibold';
+  font-family: "Montserrat-semibold";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1431,10 +1431,10 @@
           align-items: center;
   width: 40px;
   height: 40px;
-  background: #FFFFFF;
-  border: 4px solid #2DA6DD;
+  background: #ffffff;
+  border: 4px solid #2da6dd;
   border-radius: 999px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -1445,7 +1445,7 @@
 }
 
 .container .how_we_work .work_list .row_3 .text {
-  font-family: 'Montserrat-semibold';
+  font-family: "Montserrat-semibold";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1593,7 +1593,7 @@
 
 .container .our_equipment .cards .card .text {
   margin-top: 40px;
-  font-family: 'Montserrat-bold';
+  font-family: "Montserrat-bold";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -1609,7 +1609,7 @@
 }
 
 .container .our_equipment .cards .card .link a {
-  font-family: 'Montserrat-semibold';
+  font-family: "Montserrat-semibold";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1617,7 +1617,7 @@
   letter-spacing: 0.02em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2DA6DD;
+  color: #2da6dd;
 }
 
 .container .cost_calculator {
@@ -1680,7 +1680,7 @@
   display: -ms-grid;
   display: grid;
   height: 450px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1696,7 +1696,7 @@
 }
 
 .container .cost_calculator .two_cards .white_card .square .text {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1718,7 +1718,7 @@
   height: 60px;
   border: 2px solid #254152;
   border-radius: 999px;
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1738,7 +1738,7 @@
 }
 
 .container .cost_calculator .two_cards .white_card .layer_thickness .text {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1760,7 +1760,7 @@
   height: 60px;
   border: 2px solid #254152;
   border-radius: 999px;
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1778,9 +1778,9 @@
   background: rgba(37, 65, 82, 0.2);
   border-radius: 10px;
   outline: none;
-  -webkit-transition: .2s;
-  -webkit-transition: opacity .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
 .container .cost_calculator .two_cards .white_card .slider:hover {
@@ -1819,14 +1819,14 @@
 .container .cost_calculator .two_cards .white_card .checkbox .checkbox-style {
   width: 36px;
   height: 36px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 2px solid #254152;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .container .cost_calculator .two_cards .white_card .checkbox .text {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1839,15 +1839,88 @@
 .container .cost_calculator .two_cards .black_card {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  justify-items: center;
   height: 575px;
   background: #254152;
   border-radius: 20px;
-  padding: 40px;
+  padding: 60px 40px;
 }
 
-.container .cost_calculator .two_cards .caps_text {
+.container .cost_calculator .two_cards .black_card .title_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: left;
+}
+
+.container .cost_calculator .two_cards .black_card .grey_text {
+  margin-top: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.container .cost_calculator .two_cards .black_card .price_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container .cost_calculator .two_cards .black_card .btn {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 241px;
+  height: 59px;
+  background: #2da6dd;
+  border-radius: 999px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.container .cost_calculator .two_cards .black_card .paragraph {
+  margin-top: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.container .cost_calculator .two_cards .sub_title {
   margin-top: 95px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -1880,7 +1953,56 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 2fr;
+      grid-template-rows: 1fr 2fr;
   height: 475px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
+  padding: 0 40px;
+}
+
+.container .cost_calculator .three_cards .head {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .cost_calculator .three_cards .materials_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+  letter-spacing: 0.02em;
+  color: #254152;
+}
+
+.container .cost_calculator .three_cards .upper_text {
+  margin-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 110%;
+  /* or 23px */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #254152;
+}
+
+.container .cost_calculator .three_cards .icon_1 {
+  background-image: url("../img/calculator/icon_1.png");
+  height: 64px;
+  width: 64px;
+}
+
+.container .cost_calculator .three_cards .icon_2 {
+  background-image: url("../img/calculator/icon_2.png");
+  height: 64px;
+  width: 64px;
 }
