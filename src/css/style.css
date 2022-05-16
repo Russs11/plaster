@@ -288,7 +288,7 @@
   margin-top: 20px;
 }
 
-.container .we_in_numbers .contain_2 {
+.container .we_in_numbers .cards {
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -306,7 +306,7 @@
   margin-top: 80px;
 }
 
-.container .we_in_numbers .contain_2 .numbers {
+.container .we_in_numbers .cards .numbers {
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -319,7 +319,7 @@
   color: #254152;
 }
 
-.container .we_in_numbers .contain_2 .text_small {
+.container .we_in_numbers .cards .text_small {
   display: -ms-grid;
   display: grid;
   justify-items: start;
