@@ -86,26 +86,27 @@
             // border: 1px solid #000;
         }
 
-        .item_1 {
+        .header_logo{
             display: grid;
             grid-template-columns: 1fr 2fr;
+            // align-items: center;
             // grid-template-rows: max-content;
             width: 300px;
 
-            .header_logo {
+            .logo {
                 background-image: url("../img/header_logo.png");
                 width: 72px;
                 height: 72px;
             }
 
-            .header_logo_2 {
+            .title {
                 background-image: url("../img/header_logo2.png");
                 width: 185px;
                 height: 35px;
             }
         }
 
-        .item_2 {
+        .call_back_btn {
             display: grid;
             justify-items: center;
             width: 240px;
@@ -120,7 +121,7 @@
             color: #254152;
         }
 
-        .item_3 {
+        .tel_number {
             display: grid;
             grid-template-columns: 1fr 5fr;
 
@@ -135,7 +136,7 @@
                 height: 25px;
             }
 
-            .text {
+            .number_text {
                 font-family: "Montserrat-bold";
                 font-style: normal;
                 font-weight: 700;
@@ -156,14 +157,14 @@
         background: rgba(37, 65, 82, 0.15);
     }
 
-    .links_wrapper {
+    .sub_header {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
         // justify-items: center;
         width: 1200px;
 
-        .links {
+        .nav {
             display: grid;
             grid-template-columns: repeat(8, auto);
             grid-column-gap: 24px;
@@ -180,7 +181,7 @@
             text-transform: uppercase;
             color: #254152;
 
-            .btn {
+            .calc_btn {
                 display: grid;
                 grid-template-columns: 1fr 2fr;
                 width: 166px;
@@ -191,21 +192,21 @@
                 border-radius: 30px;
                 height: 35px;
 
-                .calc {
+                .calc_icon {
                     display: grid;
                     width: 26px;
                     height: 26px;
                     background-image: url("../img/calc.svg");
                 }
 
-                .text {
+                .calc_text {
                     display: grid;
                 }
             }
         }
     }
 
-    .screen_1 {
+    .mechanized_plastering {
         display: grid;
         grid-template-rows: 1fr;
         align-items: center;
@@ -215,7 +216,7 @@
         background: url("../img/screen_1.jpg");
         background-size: cover;
 
-        .contain {
+        .title {
             display: grid;
             grid-template-columns: 1fr;
             margin-left: 70px;
@@ -225,18 +226,28 @@
             }
 
             .text_small {
+                margin-top: 20px;
                 @include small_text();
             }
         }
     }
 
-    .screen_2 {
+    .we_in_numbers {
         display: grid;
         grid-template-rows: 1fr;
         align-items: center;
         // height: 570px;
         width: 1200px;
         margin-top: 110px;
+
+        .title {
+            display: grid;
+            grid-template-columns: 1fr;
+            // justify-items: center;
+            width: 1200px;
+            height: 100px;
+            // margin-top: 100px;
+        }
 
         .text_big {
             @include big_text();
@@ -280,7 +291,7 @@
         }
     }
 
-    .screen_3 {
+    .advantages_of_plaster {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
@@ -289,7 +300,7 @@
         margin-top: 140px;
         background: #e7f2f9;
 
-        .contain_1 {
+        .title {
             display: grid;
             grid-template-columns: 1fr;
             // justify-items: center;
@@ -370,7 +381,7 @@
         }
     }
 
-    .screen_4 {
+    .video_review {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
@@ -378,7 +389,7 @@
         height: 910px;
         // margin-top: 140px;
 
-        .head_text {
+        .title {
             display: grid;
             grid-template-columns: 1fr;
             // justify-items: center;
@@ -435,7 +446,7 @@
         }
     }
 
-    .screen_5 {
+    .comparison_screen {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 500px;
@@ -444,7 +455,7 @@
         height: 1660px;
         background: #e7f2f9;
 
-        .head_text {
+        .title {
             display: grid;
             grid-template-columns: 1fr;
             // justify-items: center;
@@ -465,7 +476,7 @@
         .cards_prices {
             display: grid;
             justify-items: center;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(3, auto);
             grid-template-rows: 300px;
             column-gap: 100px;
             grid-template-rows: 100px;
@@ -501,7 +512,7 @@
                 }
             }
 
-            .snip {
+            .snip_text {
                 font-family: "Montserrat-semibold";
                 font-size: 22px;
                 line-height: 140%;
@@ -510,7 +521,7 @@
                 color: #254152;
             }
 
-            .price {
+            .price_text {
                 font-family: "Montserrat-bold";
                 font-size: 44px;
                 line-height: 120%;
@@ -574,14 +585,14 @@
         }
     }
 
-    .screen_6 {
+    .our_works {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         width: 100%;
         height: 1075px;
 
-        .head_text {
+        .title {
             display: grid;
             grid-template-columns: 1fr;
             width: 1200px;
@@ -1546,6 +1557,7 @@
                     color: #ffffff;
                     text-align: left;
                 }
+
                 .grey_text {
                     margin-top: 40px;
                     font-family: "Montserrat";
@@ -1558,6 +1570,7 @@
                     letter-spacing: 0.02em;
                     color: rgba(255, 255, 255, 0.65);
                 }
+
                 .price_text {
                     font-family: "Montserrat";
                     font-style: normal;
@@ -1569,6 +1582,7 @@
                     color: #ffffff;
                     text-align: center;
                 }
+
                 .btn {
                     display: grid;
                     justify-items: center;
@@ -1586,6 +1600,7 @@
                     color: #ffffff;
                     margin-top: 40px;
                 }
+
                 .paragraph {
                     margin-top: 40px;
                     font-family: "Montserrat";
@@ -1641,6 +1656,7 @@
                     align-items: center;
                 }
             }
+
             .materials_text {
                 font-family: "Montserrat";
                 font-style: normal;
@@ -1651,6 +1667,7 @@
                 letter-spacing: 0.02em;
                 color: #254152;
             }
+
             .upper_text {
                 margin-top: 50px;
                 font-family: "Montserrat";
@@ -1663,16 +1680,19 @@
                 text-transform: uppercase;
                 color: #254152;
             }
+
             .icon_1 {
                 background-image: url("../img/calculator/icon_1.png");
                 height: 64px;
                 width: 64px;
             }
+
             .icon_2 {
                 background-image: url("../img/calculator/icon_2.png");
                 height: 64px;
                 width: 64px;
             }
+
             .list {
                 display: grid;
                 grid-template-rows: max-content;
@@ -1690,7 +1710,7 @@
                 li {
                     margin: 10px 0 0 15px;
                     padding-left: 20px;
-                  
+
                 }
 
                 li::marker {
